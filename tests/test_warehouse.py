@@ -1,3 +1,6 @@
+import sys
+from types import ModuleType
+
 import pytest
 
 from carecost.warehouse import export, identifier
@@ -24,8 +27,6 @@ def test_export_requires_dbt_artifact(tmp_path, monkeypatch):
 
 
 def test_bootstrap_uses_small_autosuspending_warehouse(monkeypatch):
-    import snowflake.connector
-
     from carecost.warehouse import bootstrap
 
     executed = []
@@ -50,7 +51,17 @@ def test_bootstrap_uses_small_autosuspending_warehouse(monkeypatch):
         def cursor(self):
             return Cursor()
 
-    monkeypatch.setattr(snowflake.connector, "connect", lambda **kwargs: Connection())
+    # Bootstrap SQL can be checked without installing or contacting Snowflake.
+    snowflake = ModuleType("snowflake")
+    snowflake.__path__ = []
+    connector = ModuleType("snowflake.connector")
+    connector.connect = lambda **kwargs: Connection()
+    snowflake.connector = connector
+    dotenv = ModuleType("dotenv")
+    dotenv.load_dotenv = lambda: None
+    monkeypatch.setitem(sys.modules, "snowflake", snowflake)
+    monkeypatch.setitem(sys.modules, "snowflake.connector", connector)
+    monkeypatch.setitem(sys.modules, "dotenv", dotenv)
     for name, value in {
         "SNOWFLAKE_ACCOUNT": "example",
         "SNOWFLAKE_USER": "patient_data_builder",
