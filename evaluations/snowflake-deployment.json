@@ -1,0 +1,19 @@
+{
+  "verified_at": "2026-09-29T23:11:53.014790+00:00",
+  "public_prices_local": 777059,
+  "public_prices_snowflake": 777059,
+  "hospitals_snowflake": 8,
+  "sample_records_matched": 24,
+  "sample_hospitals": 8,
+  "sample_price_types": [
+    "cash",
+    "gross",
+    "negotiated"
+  ],
+  "dbt_steps_passed": 31,
+  "dbt_warnings_or_errors": 0,
+  "warehouse_size": "X-Small",
+  "warehouse_auto_suspend_seconds": 60,
+  "warehouse_auto_resume": "true",
+  "bills_uploaded": false
+}

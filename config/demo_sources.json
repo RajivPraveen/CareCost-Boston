@@ -1,0 +1,62 @@
+[
+  {
+    "hospital_id": "demo_harbor",
+    "path": "data/demo/demo_harbor.csv",
+    "url": "data/demo/demo_harbor.csv",
+    "source_date": "2026-01-01",
+    "is_demo": true,
+    "hospital": {
+      "hospital_id": "demo_harbor",
+      "name": "Harbor Medical Center \u00b7 Demo",
+      "latitude": 42.3601,
+      "longitude": -71.0589,
+      "city": "Boston",
+      "health_system": "Fictional Harbor Health"
+    }
+  },
+  {
+    "hospital_id": "demo_charles",
+    "path": "data/demo/demo_charles.csv",
+    "url": "data/demo/demo_charles.csv",
+    "source_date": "2026-01-01",
+    "is_demo": true,
+    "hospital": {
+      "hospital_id": "demo_charles",
+      "name": "Charles River Hospital \u00b7 Demo",
+      "latitude": 42.3736,
+      "longitude": -71.1097,
+      "city": "Cambridge",
+      "health_system": "Fictional Charles Health"
+    }
+  },
+  {
+    "hospital_id": "demo_fenway",
+    "path": "data/demo/demo_fenway.csv",
+    "url": "data/demo/demo_fenway.csv",
+    "source_date": "2026-01-01",
+    "is_demo": true,
+    "hospital": {
+      "hospital_id": "demo_fenway",
+      "name": "Fenway Community Hospital \u00b7 Demo",
+      "latitude": 42.3429,
+      "longitude": -71.1003,
+      "city": "Boston",
+      "health_system": "Fictional Fenway Health"
+    }
+  },
+  {
+    "hospital_id": "demo_somerville",
+    "path": "data/demo/demo_somerville.csv",
+    "url": "data/demo/demo_somerville.csv",
+    "source_date": "2026-01-01",
+    "is_demo": true,
+    "hospital": {
+      "hospital_id": "demo_somerville",
+      "name": "Somerville Care Center \u00b7 Demo",
+      "latitude": 42.3876,
+      "longitude": -71.0995,
+      "city": "Somerville",
+      "health_system": "Fictional Community Health"
+    }
+  }
+]

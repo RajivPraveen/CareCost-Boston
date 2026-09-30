@@ -1,0 +1,4 @@
+73721 | Knee MRI without contrast | 1 | 2400.00 | 2026-09-01 | CPT |
+85025 | Blood count with differential | 1 | 55.10 | 2026-09-01 | CPT |
+85025 | Blood count with differential | 1 | 55.10 | 2026-09-01 | CPT |
+99999 | Unmatched service | 1 | 120.00 | 2026-09-01 | CPT |

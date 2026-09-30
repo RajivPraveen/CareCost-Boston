@@ -1,0 +1,81 @@
+code,code_type,description,setting,billing_class,price_type,payer,plan,amount,source_date
+73721,CPT,Knee MRI without contrast,outpatient,facility,cash,,,1504.0,2026-01-01
+73721,CPT,Knee MRI without contrast,outpatient,facility,gross,,,4361.6,2026-01-01
+73721,CPT,Knee MRI without contrast,outpatient,facility,negotiated,BCBS MA,PPO,1729.6,2026-01-01
+73721,CPT,Knee MRI without contrast,outpatient,facility,negotiated,Aetna,PPO,1398.72,2026-01-01
+70551,CPT,Brain MRI without contrast,outpatient,facility,cash,,,1997.5,2026-01-01
+70551,CPT,Brain MRI without contrast,outpatient,facility,gross,,,5792.75,2026-01-01
+70551,CPT,Brain MRI without contrast,outpatient,facility,negotiated,BCBS MA,PPO,2297.12,2026-01-01
+70551,CPT,Brain MRI without contrast,outpatient,facility,negotiated,Aetna,PPO,1857.68,2026-01-01
+72148,CPT,Lower back MRI without contrast,outpatient,facility,cash,,,1833.0,2026-01-01
+72148,CPT,Lower back MRI without contrast,outpatient,facility,gross,,,5315.7,2026-01-01
+72148,CPT,Lower back MRI without contrast,outpatient,facility,negotiated,BCBS MA,PPO,2107.95,2026-01-01
+72148,CPT,Lower back MRI without contrast,outpatient,facility,negotiated,Aetna,PPO,1704.69,2026-01-01
+74177,CPT,Abdomen and pelvis CT with contrast,outpatient,facility,cash,,,1269.0,2026-01-01
+74177,CPT,Abdomen and pelvis CT with contrast,outpatient,facility,gross,,,3680.1,2026-01-01
+74177,CPT,Abdomen and pelvis CT with contrast,outpatient,facility,negotiated,BCBS MA,PPO,1459.35,2026-01-01
+74177,CPT,Abdomen and pelvis CT with contrast,outpatient,facility,negotiated,Aetna,PPO,1180.17,2026-01-01
+70450,CPT,Head CT without contrast,outpatient,facility,cash,,,752.0,2026-01-01
+70450,CPT,Head CT without contrast,outpatient,facility,gross,,,2180.8,2026-01-01
+70450,CPT,Head CT without contrast,outpatient,facility,negotiated,BCBS MA,PPO,864.8,2026-01-01
+70450,CPT,Head CT without contrast,outpatient,facility,negotiated,Aetna,PPO,699.36,2026-01-01
+71046,CPT,"Chest X-ray, two views",outpatient,facility,cash,,,223.25,2026-01-01
+71046,CPT,"Chest X-ray, two views",outpatient,facility,gross,,,647.42,2026-01-01
+71046,CPT,"Chest X-ray, two views",outpatient,facility,negotiated,BCBS MA,PPO,256.74,2026-01-01
+71046,CPT,"Chest X-ray, two views",outpatient,facility,negotiated,Aetna,PPO,207.62,2026-01-01
+76700,CPT,Complete abdominal ultrasound,outpatient,facility,cash,,,493.5,2026-01-01
+76700,CPT,Complete abdominal ultrasound,outpatient,facility,gross,,,1431.15,2026-01-01
+76700,CPT,Complete abdominal ultrasound,outpatient,facility,negotiated,BCBS MA,PPO,567.52,2026-01-01
+76700,CPT,Complete abdominal ultrasound,outpatient,facility,negotiated,Aetna,PPO,458.96,2026-01-01
+77067,CPT,"Screening mammogram, both breasts",outpatient,facility,cash,,,399.5,2026-01-01
+77067,CPT,"Screening mammogram, both breasts",outpatient,facility,gross,,,1158.55,2026-01-01
+77067,CPT,"Screening mammogram, both breasts",outpatient,facility,negotiated,BCBS MA,PPO,459.42,2026-01-01
+77067,CPT,"Screening mammogram, both breasts",outpatient,facility,negotiated,Aetna,PPO,371.54,2026-01-01
+45378,CPT,Diagnostic colonoscopy,outpatient,facility,cash,,,2585.0,2026-01-01
+45378,CPT,Diagnostic colonoscopy,outpatient,facility,gross,,,7496.5,2026-01-01
+45378,CPT,Diagnostic colonoscopy,outpatient,facility,negotiated,BCBS MA,PPO,2972.75,2026-01-01
+45378,CPT,Diagnostic colonoscopy,outpatient,facility,negotiated,Aetna,PPO,2404.05,2026-01-01
+43235,CPT,Upper digestive tract endoscopy,outpatient,facility,cash,,,2115.0,2026-01-01
+43235,CPT,Upper digestive tract endoscopy,outpatient,facility,gross,,,6133.5,2026-01-01
+43235,CPT,Upper digestive tract endoscopy,outpatient,facility,negotiated,BCBS MA,PPO,2432.25,2026-01-01
+43235,CPT,Upper digestive tract endoscopy,outpatient,facility,negotiated,Aetna,PPO,1966.95,2026-01-01
+59409,CPT,Vaginal delivery only,inpatient,facility,cash,,,7520.0,2026-01-01
+59409,CPT,Vaginal delivery only,inpatient,facility,gross,,,21808.0,2026-01-01
+59409,CPT,Vaginal delivery only,inpatient,facility,negotiated,BCBS MA,PPO,8648.0,2026-01-01
+59409,CPT,Vaginal delivery only,inpatient,facility,negotiated,Aetna,PPO,6993.6,2026-01-01
+59514,CPT,Cesarean delivery only,inpatient,facility,cash,,,11280.0,2026-01-01
+59514,CPT,Cesarean delivery only,inpatient,facility,gross,,,32712.0,2026-01-01
+59514,CPT,Cesarean delivery only,inpatient,facility,negotiated,BCBS MA,PPO,12972.0,2026-01-01
+59514,CPT,Cesarean delivery only,inpatient,facility,negotiated,Aetna,PPO,10490.4,2026-01-01
+80053,CPT,Comprehensive metabolic blood panel,outpatient,facility,cash,,,65.8,2026-01-01
+80053,CPT,Comprehensive metabolic blood panel,outpatient,facility,gross,,,190.82,2026-01-01
+80053,CPT,Comprehensive metabolic blood panel,outpatient,facility,negotiated,BCBS MA,PPO,75.67,2026-01-01
+80053,CPT,Comprehensive metabolic blood panel,outpatient,facility,negotiated,Aetna,PPO,61.19,2026-01-01
+85025,CPT,Blood count with differential,outpatient,facility,cash,,,44.65,2026-01-01
+85025,CPT,Blood count with differential,outpatient,facility,gross,,,129.48,2026-01-01
+85025,CPT,Blood count with differential,outpatient,facility,negotiated,BCBS MA,PPO,51.35,2026-01-01
+85025,CPT,Blood count with differential,outpatient,facility,negotiated,Aetna,PPO,41.52,2026-01-01
+80061,CPT,Cholesterol and lipid panel,outpatient,facility,cash,,,56.4,2026-01-01
+80061,CPT,Cholesterol and lipid panel,outpatient,facility,gross,,,163.56,2026-01-01
+80061,CPT,Cholesterol and lipid panel,outpatient,facility,negotiated,BCBS MA,PPO,64.86,2026-01-01
+80061,CPT,Cholesterol and lipid panel,outpatient,facility,negotiated,Aetna,PPO,52.45,2026-01-01
+83036,CPT,Hemoglobin A1c blood test,outpatient,facility,cash,,,54.05,2026-01-01
+83036,CPT,Hemoglobin A1c blood test,outpatient,facility,gross,,,156.75,2026-01-01
+83036,CPT,Hemoglobin A1c blood test,outpatient,facility,negotiated,BCBS MA,PPO,62.16,2026-01-01
+83036,CPT,Hemoglobin A1c blood test,outpatient,facility,negotiated,Aetna,PPO,50.27,2026-01-01
+93306,CPT,Complete heart ultrasound,outpatient,facility,cash,,,1151.5,2026-01-01
+93306,CPT,Complete heart ultrasound,outpatient,facility,gross,,,3339.35,2026-01-01
+93306,CPT,Complete heart ultrasound,outpatient,facility,negotiated,BCBS MA,PPO,1324.22,2026-01-01
+93306,CPT,Complete heart ultrasound,outpatient,facility,negotiated,Aetna,PPO,1070.89,2026-01-01
+93000,CPT,Electrocardiogram with interpretation,outpatient,facility,cash,,,152.75,2026-01-01
+93000,CPT,Electrocardiogram with interpretation,outpatient,facility,gross,,,442.97,2026-01-01
+93000,CPT,Electrocardiogram with interpretation,outpatient,facility,negotiated,BCBS MA,PPO,175.66,2026-01-01
+93000,CPT,Electrocardiogram with interpretation,outpatient,facility,negotiated,Aetna,PPO,142.06,2026-01-01
+97110,CPT,"Therapeutic exercises, 15 minutes",outpatient,facility,cash,,,112.8,2026-01-01
+97110,CPT,"Therapeutic exercises, 15 minutes",outpatient,facility,gross,,,327.12,2026-01-01
+97110,CPT,"Therapeutic exercises, 15 minutes",outpatient,facility,negotiated,BCBS MA,PPO,129.72,2026-01-01
+97110,CPT,"Therapeutic exercises, 15 minutes",outpatient,facility,negotiated,Aetna,PPO,104.9,2026-01-01
+29881,CPT,Knee arthroscopy with meniscus procedure,outpatient,facility,cash,,,6815.0,2026-01-01
+29881,CPT,Knee arthroscopy with meniscus procedure,outpatient,facility,gross,,,19763.5,2026-01-01
+29881,CPT,Knee arthroscopy with meniscus procedure,outpatient,facility,negotiated,BCBS MA,PPO,7837.25,2026-01-01
+29881,CPT,Knee arthroscopy with meniscus procedure,outpatient,facility,negotiated,Aetna,PPO,6337.95,2026-01-01

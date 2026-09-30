@@ -1,0 +1,21 @@
+procedure_id,plain_language_name,category
+CPT:73721,Knee MRI without contrast,Imaging
+CPT:70551,Brain MRI without contrast,Imaging
+CPT:72148,Lower back MRI without contrast,Imaging
+CPT:74177,Abdomen and pelvis CT with contrast,Imaging
+CPT:70450,Head CT without contrast,Imaging
+CPT:71046,"Chest X-ray, two views",Imaging
+CPT:76700,Complete abdominal ultrasound,Imaging
+CPT:77067,"Screening mammogram, both breasts",Screening
+CPT:45378,Diagnostic colonoscopy,Digestive care
+CPT:43235,Upper digestive tract endoscopy,Digestive care
+CPT:59409,Vaginal delivery only,Maternity
+CPT:59514,Cesarean delivery only,Maternity
+CPT:80053,Comprehensive metabolic blood panel,Lab tests
+CPT:85025,Blood count with differential,Lab tests
+CPT:80061,Cholesterol and lipid panel,Lab tests
+CPT:83036,Hemoglobin A1c blood test,Lab tests
+CPT:93306,Complete heart ultrasound,Heart care
+CPT:93000,Electrocardiogram with interpretation,Heart care
+CPT:97110,"Therapeutic exercises, 15 minutes",Rehabilitation
+CPT:29881,Knee arthroscopy with meniscus procedure,Surgery

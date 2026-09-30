@@ -1,0 +1,14 @@
+{
+  "executable": "tesseract",
+  "tests": {
+    "PNG": {
+      "passed": true,
+      "extracted_text": "TEST BILL - NOT A REAL PATIENT\n\nMassachusetts General Hospital\n\nService date: 2026-09-01\n\nCPT 73721 MRI lower extremity joint without contrast\nQuantity 1 Line total $3600.00\n"
+    },
+    "PDF": {
+      "passed": true,
+      "extracted_text": "TEST BILL - NOT A REAL PATIENT\n\nMassachusetts General Hospital\n\nService date: 2026-09-01\n\nCPT 73721 MRI lower extremity joint without contrast\nQuantity 1_ Line total $3600.00\n"
+    }
+  },
+  "note": "Generated legible test image and a scanned PDF of that image; not a representative OCR accuracy benchmark."
+}

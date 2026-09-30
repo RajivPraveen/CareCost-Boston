@@ -1,0 +1,17 @@
+.git
+.venv
+.env
+**/__pycache__
+.pytest_cache
+.ruff_cache
+data/raw
+data/processed
+data/models
+data/index
+.streamlit/secrets.toml
+*.egg-info
+dbt/target
+dbt/logs
+dbt/.user.yml
+
+.tools/

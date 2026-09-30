@@ -1,0 +1,44 @@
+version: 2
+models:
+  - name: fct_prices
+    description: Validated explicit dollar charges; grain includes service and all pricing context.
+    columns:
+      - name: price_id
+        data_tests: [unique, not_null]
+      - name: hospital_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('dim_hospitals'), field: hospital_id}
+      - name: procedure_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('dim_procedures'), field: procedure_id}
+      - name: payer_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('dim_payers'), field: payer_id}
+      - name: amount
+        data_tests: [not_null]
+      - name: source_url
+        data_tests: [not_null]
+      - name: source_date
+        data_tests: [not_null]
+      - name: price_type
+        data_tests:
+          - accepted_values:
+              arguments: {values: [cash, gross, negotiated]}
+  - name: dim_hospitals
+    columns:
+      - name: hospital_id
+        data_tests: [unique, not_null]
+  - name: dim_procedures
+    columns:
+      - name: procedure_id
+        data_tests: [unique, not_null]
+  - name: dim_payers
+    columns:
+      - name: payer_id
+        data_tests: [unique, not_null]

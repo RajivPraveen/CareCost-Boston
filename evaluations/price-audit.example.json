@@ -1,0 +1,10 @@
+{
+  "status": "template_not_completed",
+  "hospital_id": null,
+  "source_sha256": null,
+  "reviewer_id": null,
+  "review_date": null,
+  "sample_size": 0,
+  "rows": [],
+  "instructions": "Each row records price_id, source_row, fields_checked, exact_match, discrepancy and resolution. Do not add patient information."
+}

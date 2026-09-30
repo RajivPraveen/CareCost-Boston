@@ -1,0 +1,80 @@
+[
+  {
+    "hospital_id": "bidmc",
+    "path": "data/raw/bidmc.json",
+    "url": "https://bidmc.org/042103881_beth-israel-deaconess-medical-center_standardcharges.json",
+    "source_date": "2026-04-01",
+    "is_demo": false,
+    "hospital": {
+      "hospital_id": "bidmc",
+      "name": "Beth Israel Deaconess Medical Center",
+      "address": "330 Brookline Avenue, Boston, MA 02215",
+      "latitude": 42.339823034879,
+      "longitude": -71.106234940319,
+      "city": "Boston",
+      "health_system": "Beth Israel Lahey Health",
+      "location_source": "US Census Geocoder, matched hospital address",
+      "location_verified_on": "2026-09-29"
+    },
+    "discovery_url": "https://bidmc.org/patients-visitors/billing-financial-services/price-transparency"
+  },
+  {
+    "hospital_id": "mount_auburn",
+    "path": "data/raw/mount_auburn.json",
+    "url": "https://mountauburnhospital.org/042103606_mount-auburn-hospital_standardcharges.json",
+    "source_date": "2026-04-01",
+    "is_demo": false,
+    "hospital": {
+      "hospital_id": "mount_auburn",
+      "name": "Mount Auburn Hospital",
+      "address": "330 Mount Auburn Street, Cambridge, MA 02138",
+      "latitude": 42.374803457052,
+      "longitude": -71.133140462612,
+      "city": "Cambridge",
+      "health_system": "Beth Israel Lahey Health",
+      "location_source": "US Census Geocoder, matched hospital address",
+      "location_verified_on": "2026-09-29"
+    },
+    "discovery_url": "https://mountauburnhospital.org/patients-visitors/billing-financial-services/price-transparency"
+  },
+  {
+    "hospital_id": "nebh",
+    "path": "data/raw/nebh.json",
+    "url": "https://nebh.org/042103612_new-england-baptist-hospital_standardcharges.json",
+    "source_date": "2026-04-01",
+    "is_demo": false,
+    "hospital": {
+      "hospital_id": "nebh",
+      "name": "New England Baptist Hospital",
+      "address": "125 Parker Hill Avenue, Boston, MA 02120",
+      "latitude": 42.330404233121,
+      "longitude": -71.108005738806,
+      "city": "Boston",
+      "health_system": "Beth Israel Lahey Health",
+      "location_source": "US Census Geocoder, matched hospital address",
+      "location_verified_on": "2026-09-29"
+    },
+    "discovery_url": "https://bilh.org/billing-financial-services/price-transparency"
+  },
+  {
+    "hospital_id": "bmc",
+    "path": "data/raw/bmc.csv",
+    "url": "https://www.bmchealthsystem.org/wp-content/uploads/043314093_BostonMedicalCenter_standardcharges.csv.zip?updated=",
+    "source_date": "2026-03-13",
+    "is_demo": false,
+    "hospital": {
+      "hospital_id": "bmc",
+      "name": "Boston Medical Center",
+      "address": "One Boston Medical Center Place, Boston, MA 02118",
+      "latitude": 42.33469528367,
+      "longitude": -71.075400577107,
+      "city": "Boston",
+      "health_system": "BMC Health System",
+      "location_source": "US Census Geocoder, matched hospital address",
+      "location_verified_on": "2026-09-29"
+    },
+    "discovery_url": "https://www.bmchealthsystem.org/pricing-and-estimates",
+    "archive_path": "data/raw/bmc.zip",
+    "date_format": "%m/%d/%Y"
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "query": "knee MRI",
+    "expected_code": "73721",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "MRI of my knee",
+    "expected_code": "73721",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "knee scan no dye",
+    "expected_code": "73721",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "magnetic scan knee",
+    "expected_code": "73721",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "knee imaging without contrast",
+    "expected_code": "73721",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "brain MRI",
+    "expected_code": "70551",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "MRI of my head",
+    "expected_code": "70551",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "brain scan no dye",
+    "expected_code": "70551",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "magnetic brain scan",
+    "expected_code": "70551",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "head MRI without contrast",
+    "expected_code": "70551",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "back MRI",
+    "expected_code": "72148",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "lumbar scan",
+    "expected_code": "72148",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "lower spine MRI",
+    "expected_code": "72148",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "MRI lower back no dye",
+    "expected_code": "72148",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "lumbar spine imaging",
+    "expected_code": "72148",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "belly CT",
+    "expected_code": "74177",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "abdominal CT with dye",
+    "expected_code": "74177",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "abdomen pelvis scan",
+    "expected_code": "74177",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "CT stomach area",
+    "expected_code": "74177",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "pelvic CT with contrast",
+    "expected_code": "74177",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "head CT",
+    "expected_code": "70450",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "CT of brain",
+    "expected_code": "70450",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "head scan no contrast",
+    "expected_code": "70450",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "computed tomography head",
+    "expected_code": "70450",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "brain CT no dye",
+    "expected_code": "70450",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "chest xray",
+    "expected_code": "71046",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "lung x-ray",
+    "expected_code": "71046",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "two view chest film",
+    "expected_code": "71046",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "chest radiograph",
+    "expected_code": "71046",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "x ray of lungs",
+    "expected_code": "71046",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "belly ultrasound",
+    "expected_code": "76700",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "abdominal sonogram",
+    "expected_code": "76700",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "ultrasound stomach",
+    "expected_code": "76700",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "abdomen ultrasound",
+    "expected_code": "76700",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "complete abdominal scan ultrasound",
+    "expected_code": "76700",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "mammogram",
+    "expected_code": "77067",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "breast cancer screening",
+    "expected_code": "77067",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "routine breast xray",
+    "expected_code": "77067",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "screening breast imaging",
+    "expected_code": "77067",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "both breasts mammography",
+    "expected_code": "77067",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "colonoscopy",
+    "expected_code": "45378",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "colon scope",
+    "expected_code": "45378",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "camera exam colon",
+    "expected_code": "45378",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "large intestine exam",
+    "expected_code": "45378",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "diagnostic bowel scope",
+    "expected_code": "45378",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "upper endoscopy",
+    "expected_code": "43235",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "stomach scope",
+    "expected_code": "43235",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "EGD",
+    "expected_code": "43235",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "camera in stomach",
+    "expected_code": "43235",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "upper GI scope",
+    "expected_code": "43235",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "baby delivery",
+    "expected_code": "59409",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "vaginal birth",
+    "expected_code": "59409",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "normal childbirth",
+    "expected_code": "59409",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "delivery without c section",
+    "expected_code": "59409",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "vaginal delivery only",
+    "expected_code": "59409",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "c section",
+    "expected_code": "59514",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "cesarean birth",
+    "expected_code": "59514",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "surgical baby delivery",
+    "expected_code": "59514",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "caesarean delivery",
+    "expected_code": "59514",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "cesarean only",
+    "expected_code": "59514",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "metabolic panel",
+    "expected_code": "80053",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "CMP blood test",
+    "expected_code": "80053",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "comprehensive blood chemistry",
+    "expected_code": "80053",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "liver kidney blood panel",
+    "expected_code": "80053",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "comprehensive metabolic testing",
+    "expected_code": "80053",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "blood count",
+    "expected_code": "85025",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "CBC with differential",
+    "expected_code": "85025",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "complete blood cell test",
+    "expected_code": "85025",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "red white blood count",
+    "expected_code": "85025",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "blood cells panel",
+    "expected_code": "85025",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "cholesterol test",
+    "expected_code": "80061",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "lipid panel",
+    "expected_code": "80061",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "blood fat test",
+    "expected_code": "80061",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "cholesterol blood work",
+    "expected_code": "80061",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "HDL LDL test",
+    "expected_code": "80061",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "A1c test",
+    "expected_code": "83036",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "three month blood sugar",
+    "expected_code": "83036",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "diabetes blood test A1c",
+    "expected_code": "83036",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "hemoglobin a1c",
+    "expected_code": "83036",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "average glucose test",
+    "expected_code": "83036",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "echocardiogram",
+    "expected_code": "93306",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "heart ultrasound",
+    "expected_code": "93306",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "cardiac echo",
+    "expected_code": "93306",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "complete echo test",
+    "expected_code": "93306",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "ultrasound of heart",
+    "expected_code": "93306",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "EKG",
+    "expected_code": "93000",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "ECG test",
+    "expected_code": "93000",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "heart electrical test",
+    "expected_code": "93000",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "electrocardiogram",
+    "expected_code": "93000",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "heart rhythm tracing",
+    "expected_code": "93000",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "physical therapy exercises",
+    "expected_code": "97110",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "PT exercise session",
+    "expected_code": "97110",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "therapeutic exercise",
+    "expected_code": "97110",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "rehab exercises 15 minutes",
+    "expected_code": "97110",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "physio exercises",
+    "expected_code": "97110",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "meniscus surgery",
+    "expected_code": "29881",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "knee arthroscopy",
+    "expected_code": "29881",
+    "code_type": "CPT",
+    "overlaps_alias": true
+  },
+  {
+    "query": "torn meniscus procedure",
+    "expected_code": "29881",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "knee keyhole surgery",
+    "expected_code": "29881",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  },
+  {
+    "query": "arthroscopic meniscus repair cost",
+    "expected_code": "29881",
+    "code_type": "CPT",
+    "overlaps_alias": false
+  }
+]

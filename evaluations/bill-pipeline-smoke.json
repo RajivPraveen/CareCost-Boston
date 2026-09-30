@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "note": "Fabricated bill from the OCR smoke test compared against the actual MGH published source. No patient bill was used.",
+  "results": [
+    {
+      "line": 1,
+      "description": "MRI lower extremity joint without contrast",
+      "code": "73721",
+      "quantity": "1",
+      "charge": "3600.00",
+      "published_total": "3332.00",
+      "flags": [
+        {
+          "type": "above_published",
+          "message": "Line total $3,600.00 is $268.00 above the selected published gross amount \u00d7 quantity ($3,332.00). Ask the hospital to explain the difference."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.massgeneralbrigham.org/price-transparency/042697983_Massachusetts-General-Hospital_StandardCharges.zip",
+          "publication_date": "2026-03-27",
+          "row": 89737,
+          "sha256": "8bea8e1d81328884f30ace61020a56ecad309830c6d41189f91b2f48e73d8d92",
+          "unit_price": "3332.00",
+          "is_demo": false
+        }
+      ]
+    }
+  ]
+}

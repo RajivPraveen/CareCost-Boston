@@ -1,0 +1,51 @@
+/* CareCost: quiet surfaces, readable type, and one clear next action. */
+.block-container {max-width:1060px; padding:2rem 2.5rem 4rem;}
+header[data-testid="stHeader"] {background:transparent;}
+h1,h2,h3 {letter-spacing:-.035em;}
+h1 {font-size:clamp(2.2rem,5vw,3.3rem)!important; font-weight:600!important; line-height:1.12!important; padding-bottom:.7rem!important;}
+h2 {font-size:1.55rem!important; font-weight:600!important;}
+h3 {font-size:1.15rem!important; font-weight:600!important;}
+.brand-bar {display:flex; align-items:center; justify-content:space-between; padding:0 0 1.15rem; border-bottom:1px solid #dce7e3; margin-bottom:.35rem;}
+.brand {display:flex; align-items:center; gap:10px; font-size:23px; font-weight:650; letter-spacing:-.8px;}
+.brand-symbol {display:grid; place-items:center; width:32px; height:32px; background:#137d71; color:white; border-radius:10px; font-size:23px;}
+.brand-note {font-size:12px; color:#536e69;}
+.st-key-navigation [role="radiogroup"] {gap:8px; padding-bottom:1.4rem; flex-wrap:wrap;}
+.st-key-navigation [role="radiogroup"] label {border-radius:8px; padding:8px 14px; margin:0; color:#536e69;}
+.st-key-navigation [role="radiogroup"] label:has(input:checked) {background:#e2efea; color:#105f56;}
+.st-key-navigation [role="radiogroup"] label > div:first-child {display:none;}
+.st-key-navigation [role="radiogroup"] label:focus-within {outline:2px solid #137d71; outline-offset:2px;}
+.hero-tag {font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:#137d71; font-weight:700; margin:10px 0 12px;}
+.intro {font-size:17px; line-height:1.65; color:#536e69; max-width:650px; margin:0 0 24px;}
+.step-label {font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:#536e69; font-weight:650; margin:14px 0 8px;}
+[data-testid="stTextInput"] input {min-height:48px;}
+[data-baseweb="input"], [data-baseweb="select"] > div {background:white; border-color:#d8e4df; border-radius:10px;}
+[data-testid="stExpander"] {border-color:#dce7e3; border-radius:10px;}
+[data-testid="stMetric"] {padding:12px 0 18px; border-bottom:1px solid #dce7e3;}
+[data-testid="stMetricValue"] {font-size:1.9rem; font-weight:600;}
+[data-testid="stMetricLabel"] {color:#536e69;}
+.hospital-card {display:flex; align-items:center; justify-content:space-between; gap:24px; border:1px solid #dce7e3; border-radius:14px; background:white; padding:24px; margin:0 0 10px;}
+.hospital-card.lowest {border-color:#89bbae; background:#f4faf7;}
+.hospital-card h3 {margin:6px 0 8px!important; padding:0!important;}
+.card-amount {text-align:right; flex-shrink:0;}
+.price {font-size:30px; letter-spacing:-1px; font-weight:600; color:#137d71; line-height:1.35;}
+.subtle {color:#536e69; font-size:13px; line-height:1.6;}
+.pill {display:inline-block; padding:3px 8px; border-radius:5px; font-size:10px; letter-spacing:.04em; color:#105f56; background:#dfefe7; font-weight:650;}
+.guide {display:grid; grid-template-columns:repeat(3,1fr); gap:24px; border-top:1px solid #dce7e3; margin-top:28px; padding-top:24px;}
+.guide-num {font-size:12px; color:#137d71; margin-bottom:10px;}
+.guide strong {font-size:14px; font-weight:600;}
+.guide p {color:#536e69; font-size:13px; line-height:1.7; margin-top:7px;}
+.footnote {border-top:1px solid #dce7e3; margin-top:28px; padding-top:18px; color:#536e69; font-size:12px; line-height:1.8;}
+@media(max-width:640px) {
+ .block-container {padding:1.5rem 1rem 3rem;}
+ .brand-note {display:none;}
+ .st-key-navigation [role="radiogroup"] {gap:0;}
+ .st-key-navigation [role="radiogroup"] label {padding:8px 10px;}
+ .st-key-navigation [role="radiogroup"] label p {font-size:12px;}
+ .hospital-card {align-items:flex-start; padding:18px; gap:12px;}
+ .price {font-size:25px;}
+ .card-amount {max-width:135px;}
+ .guide {gap:16px;}
+}
+.st-key-navigation [data-testid="stRadioOption"] > div > div:first-child:not([data-testid]) {display:none;}
+[data-testid="stTextInputRootElement"] {background:white; border:1px solid #d8e4df; border-radius:10px;}
+[data-testid="stTextInputField"] {background:transparent;}

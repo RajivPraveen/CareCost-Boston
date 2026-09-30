@@ -1,0 +1,438 @@
+{
+  "generated_at": "2026-09-29T20:16:09.621987+00:00",
+  "data": {
+    "prices": 777059,
+    "hospitals": 8,
+    "procedures": 20540,
+    "published": "2026-04-01"
+  },
+  "scope": "8 Boston-area hospitals across 3 health systems (BMC Health System, Beth Israel Lahey Health, Mass General Brigham); not a representative Boston market sample.",
+  "lineage": [
+    {
+      "hospital_id": "bwfh",
+      "source_url": "https://www.massgeneralbrigham.org/price-transparency/042768256_Brigham-and-Womens-Faulkner-Hospital_StandardCharges.zip",
+      "sha256": "64944768560f760ad2d5131c179db19808f6756ea44c821477b26cc9779c4c62",
+      "accepted": 52804,
+      "rejected": 2307,
+      "duplicates": 58278,
+      "finished_at": "2026-09-29 05:54:58"
+    },
+    {
+      "hospital_id": "bwh",
+      "source_url": "https://www.massgeneralbrigham.org/price-transparency/042312909_Brigham-and-Womens-Hospital_StandardCharges.zip",
+      "sha256": "4d0aeb5a857faf5f30c0938ad7142f111450f0f75a44b703ff54c7a6cd8d3260",
+      "accepted": 142776,
+      "rejected": 6811,
+      "duplicates": 165072,
+      "finished_at": "2026-09-29 05:55:45"
+    },
+    {
+      "hospital_id": "mgh",
+      "source_url": "https://www.massgeneralbrigham.org/price-transparency/042697983_Massachusetts-General-Hospital_StandardCharges.zip",
+      "sha256": "8bea8e1d81328884f30ace61020a56ecad309830c6d41189f91b2f48e73d8d92",
+      "accepted": 197456,
+      "rejected": 7625,
+      "duplicates": 258482,
+      "finished_at": "2026-09-29 05:57:04"
+    },
+    {
+      "hospital_id": "nwh",
+      "source_url": "https://www.massgeneralbrigham.org/price-transparency/042103611_Newton-Wellesley-Hospital_StandardCharges.zip",
+      "sha256": "970cb0d093ed94a8f4cf3e8608eca3f4171f9f9da00faa2d19e64592a4a8e0f6",
+      "accepted": 49179,
+      "rejected": 3150,
+      "duplicates": 50712,
+      "finished_at": "2026-09-29 05:57:22"
+    },
+    {
+      "hospital_id": "bidmc",
+      "source_url": "https://bidmc.org/042103881_beth-israel-deaconess-medical-center_standardcharges.json",
+      "sha256": "7e4dd9074968e9bb6b0d9c961b8d8dd5ee94be2249496eadd5135404d2a24e23",
+      "accepted": 48534,
+      "rejected": 9750,
+      "duplicates": 0,
+      "finished_at": "2026-09-29 20:07:48"
+    },
+    {
+      "hospital_id": "mount_auburn",
+      "source_url": "https://mountauburnhospital.org/042103606_mount-auburn-hospital_standardcharges.json",
+      "sha256": "a9e5ac64beef14dde904cbe044b106a1b0851bc577e4b7087d6abf4ac52ab02c",
+      "accepted": 50778,
+      "rejected": 5483,
+      "duplicates": 32,
+      "finished_at": "2026-09-29 20:07:54"
+    },
+    {
+      "hospital_id": "nebh",
+      "source_url": "https://nebh.org/042103612_new-england-baptist-hospital_standardcharges.json",
+      "sha256": "47ade3a708565ec0b128af079599243f6a9c4a9d0ad759e10e0e6ecce0c18e9d",
+      "accepted": 71685,
+      "rejected": 5196,
+      "duplicates": 458,
+      "finished_at": "2026-09-29 20:08:01"
+    },
+    {
+      "hospital_id": "bmc",
+      "source_url": "https://www.bmchealthsystem.org/wp-content/uploads/043314093_BostonMedicalCenter_standardcharges.csv.zip?updated=",
+      "sha256": "a89a6a3073ad4c6c80b1be104c735b66daeaa75c8ad7ae331e83c1288f563150",
+      "accepted": 163847,
+      "rejected": 1210046,
+      "duplicates": 1414702,
+      "finished_at": "2026-09-29 20:13:46"
+    }
+  ],
+  "comparable_cash_groups": 19749,
+  "largest_observed_ratio": {
+    "code": "J2001",
+    "code_type": "HCPCS",
+    "description": "Lidocaine Inj 10mg",
+    "setting": "both",
+    "billing_class": "unknown",
+    "modifiers": "",
+    "hospitals": 4,
+    "min_cash": 0.01,
+    "max_cash": 1.63,
+    "max_min_ratio": 163.0
+  },
+  "common_procedures": [
+    {
+      "code": "80053",
+      "code_type": "HCPCS",
+      "description": "CHG COMPREHENSIVE METABOLIC PANEL",
+      "setting": "both",
+      "billing_class": "facility",
+      "modifiers": "",
+      "hospitals": 2,
+      "min_cash": 136.0,
+      "max_cash": 658.0,
+      "max_min_ratio": 4.838
+    },
+    {
+      "code": "93000",
+      "code_type": "HCPCS",
+      "description": "HC ECG ROUTINE ECG W/LEAST 12 LDS W/I&R",
+      "setting": "both",
+      "billing_class": "facility",
+      "modifiers": "",
+      "hospitals": 2,
+      "min_cash": 219.0,
+      "max_cash": 593.0,
+      "max_min_ratio": 2.708
+    },
+    {
+      "code": "83036",
+      "code_type": "HCPCS",
+      "description": "CHG HEMOGLOBIN GLYCOSYLATED A1C",
+      "setting": "both",
+      "billing_class": "facility",
+      "modifiers": "",
+      "hospitals": 2,
+      "min_cash": 51.0,
+      "max_cash": 79.0,
+      "max_min_ratio": 1.549
+    },
+    {
+      "code": "97110",
+      "code_type": "HCPCS",
+      "description": "HC PT THER PROC 1 OR MORE AREAS EA 15 MIN EXERCISES",
+      "setting": "both",
+      "billing_class": "facility",
+      "modifiers": "",
+      "hospitals": 2,
+      "min_cash": 149.0,
+      "max_cash": 229.0,
+      "max_min_ratio": 1.537
+    },
+    {
+      "code": "80061",
+      "code_type": "CPT",
+      "description": "Lipid Panel",
+      "setting": "both",
+      "billing_class": "unknown",
+      "modifiers": "",
+      "hospitals": 4,
+      "min_cash": 81.75,
+      "max_cash": 124.5,
+      "max_min_ratio": 1.523
+    },
+    {
+      "code": "80053",
+      "code_type": "CPT",
+      "description": "Comprehensive Metabolic Panel",
+      "setting": "both",
+      "billing_class": "unknown",
+      "modifiers": "",
+      "hospitals": 4,
+      "min_cash": 90.0,
+      "max_cash": 133.5,
+      "max_min_ratio": 1.483
+    },
+    {
+      "code": "83036",
+      "code_type": "CPT",
+      "description": "Hemoglobin Glycosylated (A1c)",
+      "setting": "both",
+      "billing_class": "unknown",
+      "modifiers": "",
+      "hospitals": 4,
+      "min_cash": 84.0,
+      "max_cash": 122.25,
+      "max_min_ratio": 1.455
+    },
+    {
+      "code": "73721",
+      "code_type": "HCPCS",
+      "description": "HC MRI ANY JOINT LOWER EXT WO CONTRAST MATERIAL",
+      "setting": "both",
+      "billing_class": "facility",
+      "modifiers": "",
+      "hospitals": 2,
+      "min_cash": 2921.0,
+      "max_cash": 4222.0,
+      "max_min_ratio": 1.445
+    },
+    {
+      "code": "85025",
+      "code_type": "CPT",
+      "description": "Blood Count Cbc Auto W/Auto Diff",
+      "setting": "both",
+      "billing_class": "unknown",
+      "modifiers": "",
+      "hospitals": 4,
+      "min_cash": 69.75,
+      "max_cash": 93.75,
+      "max_min_ratio": 1.344
+    },
+    {
+      "code": "93306",
+      "code_type": "HCPCS",
+      "description": "HC ECHO TRANSTHOR W DOP COMP WO CONT",
+      "setting": "both",
+      "billing_class": "facility",
+      "modifiers": "",
+      "hospitals": 2,
+      "min_cash": 2526.0,
+      "max_cash": 3346.0,
+      "max_min_ratio": 1.325
+    },
+    {
+      "code": "97110",
+      "code_type": "CPT",
+      "description": "Ot Exercise Therapeutic 15 Min",
+      "setting": "both",
+      "billing_class": "unknown",
+      "modifiers": "",
+      "hospitals": 4,
+      "min_cash": 129.75,
+      "max_cash": 171.0,
+      "max_min_ratio": 1.318
+    },
+    {
+      "code": "97110",
+      "code_type": "CPT",
+      "description": "Pt Exercise Therapeutic 15 Min",
+      "setting": "both",
+      "billing_class": "unknown",
+      "modifiers": "",
+      "hospitals": 4,
+      "min_cash": 129.75,
+      "max_cash": 171.0,
+      "max_min_ratio": 1.318
+    },
+    {
+      "code": "93306",
+      "code_type": "CPT",
+      "description": "Echo Tthrc R-T 2d W/Wom-Mode Compl Spec&Colr D",
+      "setting": "both",
+      "billing_class": "unknown",
+      "modifiers": "",
+      "hospitals": 4,
+      "min_cash": 1842.75,
+      "max_cash": 2394.75,
+      "max_min_ratio": 1.3
+    },
+    {
+      "code": "70551",
+      "code_type": "CPT",
+      "description": "MRI Brain W/O Cont",
+      "setting": "both",
+      "billing_class": "unknown",
+      "modifiers": "",
+      "hospitals": 4,
+      "min_cash": 3159.75,
+      "max_cash": 3858.0,
+      "max_min_ratio": 1.221
+    },
+    {
+      "code": "45378",
+      "code_type": "HCPCS",
+      "description": "HC COLONOSCOPY FLEX DX W SPEC COLL WHEN PFRMD",
+      "setting": "both",
+      "billing_class": "facility",
+      "modifiers": "",
+      "hospitals": 3,
+      "min_cash": 2097.0,
+      "max_cash": 2547.0,
+      "max_min_ratio": 1.215
+    },
+    {
+      "code": "73721",
+      "code_type": "CPT",
+      "description": "MRI Lwr Ext Joint W/O Cont",
+      "setting": "both",
+      "billing_class": "unknown",
+      "modifiers": "",
+      "hospitals": 4,
+      "min_cash": 2499.0,
+      "max_cash": 3036.75,
+      "max_min_ratio": 1.215
+    },
+    {
+      "code": "71046",
+      "code_type": "CPT",
+      "description": "Radiologic Exam Chest 2 Views",
+      "setting": "both",
+      "billing_class": "unknown",
+      "modifiers": "",
+      "hospitals": 4,
+      "min_cash": 294.0,
+      "max_cash": 354.0,
+      "max_min_ratio": 1.204
+    },
+    {
+      "code": "80061",
+      "code_type": "HCPCS",
+      "description": "CHG LIPID PANEL",
+      "setting": "both",
+      "billing_class": "facility",
+      "modifiers": "",
+      "hospitals": 2,
+      "min_cash": 104.0,
+      "max_cash": 125.0,
+      "max_min_ratio": 1.202
+    },
+    {
+      "code": "70551",
+      "code_type": "HCPCS",
+      "description": "HC MRI BRAIN BRAIN STEM WO CONTRAST MATERIAL",
+      "setting": "both",
+      "billing_class": "facility",
+      "modifiers": "",
+      "hospitals": 2,
+      "min_cash": 2648.0,
+      "max_cash": 3170.0,
+      "max_min_ratio": 1.197
+    },
+    {
+      "code": "85025",
+      "code_type": "HCPCS",
+      "description": "CHG BLOOD COUNT COMPLETE AUTO&AUTO DIFRNTL WBC",
+      "setting": "both",
+      "billing_class": "facility",
+      "modifiers": "",
+      "hospitals": 2,
+      "min_cash": 70.0,
+      "max_cash": 79.0,
+      "max_min_ratio": 1.129
+    },
+    {
+      "code": "71046",
+      "code_type": "HCPCS",
+      "description": "HC RADIOLOGIC EXAM CHEST 2 VIEWS",
+      "setting": "both",
+      "billing_class": "facility",
+      "modifiers": "",
+      "hospitals": 2,
+      "min_cash": 325.0,
+      "max_cash": 357.0,
+      "max_min_ratio": 1.098
+    },
+    {
+      "code": "45378",
+      "code_type": "CPT",
+      "description": "Colonoscopy Flexible",
+      "setting": "both",
+      "billing_class": "unknown",
+      "modifiers": "",
+      "hospitals": 4,
+      "min_cash": 2721.75,
+      "max_cash": 2912.25,
+      "max_min_ratio": 1.07
+    },
+    {
+      "code": "45378",
+      "code_type": "CPT",
+      "description": "Colonoscopy Flx Dx W/Collj Spec When Pfrmd",
+      "setting": "both",
+      "billing_class": "unknown",
+      "modifiers": "",
+      "hospitals": 4,
+      "min_cash": 2721.75,
+      "max_cash": 2912.25,
+      "max_min_ratio": 1.07
+    },
+    {
+      "code": "83036",
+      "code_type": "CPT",
+      "description": "Bwh Hemoglobin Glycosylated A1c",
+      "setting": "both",
+      "billing_class": "unknown",
+      "modifiers": "",
+      "hospitals": 2,
+      "min_cash": 122.25,
+      "max_cash": 122.25,
+      "max_min_ratio": 1.0
+    }
+  ],
+  "method": "Group by identical code system, code, exact published description, setting, billing class and modifiers; exclude hospital groups with multiple distinct amounts. Some sources do not identify billing class. Identical wording is not proof of identical inclusions.",
+  "exclusions": [
+    {
+      "reason": "Requires exactly one distinct CPT/HCPCS code; unsupported or bundled codes",
+      "records": 418024
+    },
+    {
+      "reason": "Negotiated rate uses percent of total billed charges, not a fixed per-service fee schedule",
+      "records": 358997
+    },
+    {
+      "reason": "Drug unit conversion requires a dedicated adapter",
+      "records": 220731
+    },
+    {
+      "reason": "Negotiated rate uses other, not a fixed per-service fee schedule",
+      "records": 115555
+    },
+    {
+      "reason": "Negotiated rate uses per diem, not a fixed per-service fee schedule",
+      "records": 114171
+    },
+    {
+      "reason": "Negotiated rate uses case rate, not a fixed per-service fee schedule",
+      "records": 21270
+    },
+    {
+      "reason": "Non-dollar negotiated rate: percentage/algorithm/allowed statistic is not a fixed price",
+      "records": 1071
+    },
+    {
+      "reason": "1 validation error for Price\ncode\n  Value error, Unsupported CPT/HCPCS code shape [type=value_error, input_value='7100000010', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+      "records": 8
+    },
+    {
+      "reason": "1 validation error for Price\ncode\n  Value error, Unsupported CPT/HCPCS code shape [type=value_error, input_value='7100000009', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+      "records": 8
+    },
+    {
+      "reason": "1 validation error for Price\ncode\n  Value error, Unsupported CPT/HCPCS code shape [type=value_error, input_value='7100000008', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+      "records": 8
+    },
+    {
+      "reason": "1 validation error for Price\ncode\n  Value error, Unsupported CPT/HCPCS code shape [type=value_error, input_value='7100000007', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+      "records": 8
+    },
+    {
+      "reason": "1 validation error for Price\ncode\n  Value error, Unsupported CPT/HCPCS code shape [type=value_error, input_value='3700000011', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+      "records": 8
+    }
+  ]
+}

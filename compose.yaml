@@ -1,0 +1,14 @@
+services:
+  carecost:
+    build: .
+    ports:
+      - "127.0.0.1:8501:8501"
+    volumes:
+      - public_data:/app/data/processed
+    security_opt:
+      - no-new-privileges:true
+    cap_drop: [ALL]
+    pids_limit: 128
+    mem_limit: 2g
+volumes:
+  public_data:

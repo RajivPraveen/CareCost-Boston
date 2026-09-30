@@ -1,0 +1,17 @@
+[
+  {
+    "hospital_id": "replace_with_verified_facility_id",
+    "url": "https://hospital.example.org/standardcharges.csv",
+    "path": "data/raw/hospital.csv",
+    "source_date": "2026-01-01",
+    "is_demo": false,
+    "hospital": {
+      "hospital_id": "replace_with_verified_facility_id",
+      "name": "Replace with verified hospital name",
+      "latitude": 42.36,
+      "longitude": -71.06,
+      "city": "Boston",
+      "health_system": "Verify from hospital source"
+    }
+  }
+]

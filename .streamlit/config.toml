@@ -1,0 +1,20 @@
+[theme]
+primaryColor = "#137D71"
+backgroundColor = "#F8FAF9"
+secondaryBackgroundColor = "#EAF1EF"
+textColor = "#173A37"
+font = "sans serif"
+
+[server]
+# Avoid scanning lazy ML imports on every UI interaction. Restart after code edits.
+fileWatcherType = "none"
+address = "127.0.0.1"
+maxUploadSize = 10
+enableXsrfProtection = true
+enableCORS = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"

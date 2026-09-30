@@ -1,0 +1,23 @@
+select
+    price_id,
+    payload:hospital_id::varchar as hospital_id,
+    payload:code::varchar as code,
+    payload:code_type::varchar as code_type,
+    payload:code_type::varchar || ':' || payload:code::varchar as procedure_id,
+    sha2(to_json(array_construct(payload:payer::varchar, payload:plan::varchar)), 256) as payer_id,
+    payload:description::varchar as description,
+    payload:service_id::varchar as service_id,
+    payload:setting::varchar as setting,
+    payload:billing_class::varchar as billing_class,
+    payload:modifiers::varchar as modifiers,
+    payload:price_type::varchar as price_type,
+    payload:payer::varchar as payer,
+    payload:plan::varchar as plan,
+    try_to_decimal(payload:amount::varchar, 18, 2) as amount,
+    try_to_date(payload:source_date::varchar) as source_date,
+    payload:source_url::varchar as source_url,
+    payload:source_sha256::varchar as source_sha256,
+    payload:source_row::integer as source_row,
+    payload:is_demo::boolean as is_demo,
+    payload as raw_payload
+from {{ source('raw', 'price_records') }}

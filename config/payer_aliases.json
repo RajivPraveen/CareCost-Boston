@@ -1,0 +1,6 @@
+{
+  "bcbs ma|ppo": {"payer": "blue cross blue shield of massachusetts", "plan": "ppo"},
+  "bcbs ma ppo|ppo": {"payer": "blue cross blue shield of massachusetts", "plan": "ppo"},
+  "blue cross blue shield of massachusetts|ppo": {"payer": "blue cross blue shield of massachusetts", "plan": "ppo"},
+  "aetna|ppo": {"payer": "aetna", "plan": "ppo"}
+}

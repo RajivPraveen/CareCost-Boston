@@ -1,0 +1,46 @@
+[
+  {
+    "hospital_id": "bwfh",
+    "url": "https://www.massgeneralbrigham.org/price-transparency/042768256_Brigham-and-Womens-Faulkner-Hospital_StandardCharges.zip",
+    "publication_date": "2026-03-27",
+    "retrieved_on": "2026-09-29",
+    "archive_sha256": "d66cc4a4b284a5752be35855a0ac1dbd456f7bbbf258fb0114f58be3a25297ca",
+    "csv_sha256": "64944768560f760ad2d5131c179db19808f6756ea44c821477b26cc9779c4c62",
+    "archive_bytes": 998107,
+    "csv_bytes": 15982002,
+    "encoding": "cp1252"
+  },
+  {
+    "hospital_id": "bwh",
+    "url": "https://www.massgeneralbrigham.org/price-transparency/042312909_Brigham-and-Womens-Hospital_StandardCharges.zip",
+    "publication_date": "2026-03-27",
+    "retrieved_on": "2026-09-29",
+    "archive_sha256": "188337340e253f44f42ded9c15b7e1a957e167e35c2a6a88c21bc63ac1c769ce",
+    "csv_sha256": "4d0aeb5a857faf5f30c0938ad7142f111450f0f75a44b703ff54c7a6cd8d3260",
+    "archive_bytes": 2879322,
+    "csv_bytes": 46050158,
+    "encoding": "cp1252"
+  },
+  {
+    "hospital_id": "mgh",
+    "url": "https://www.massgeneralbrigham.org/price-transparency/042697983_Massachusetts-General-Hospital_StandardCharges.zip",
+    "publication_date": "2026-03-27",
+    "retrieved_on": "2026-09-29",
+    "archive_sha256": "5be51f8464a8eb17831241d92daa2e81e6436d45868c3911dcd47a2d204762ba",
+    "csv_sha256": "8bea8e1d81328884f30ace61020a56ecad309830c6d41189f91b2f48e73d8d92",
+    "archive_bytes": 3756817,
+    "csv_bytes": 63426778,
+    "encoding": "cp1252"
+  },
+  {
+    "hospital_id": "nwh",
+    "url": "https://www.massgeneralbrigham.org/price-transparency/042103611_Newton-Wellesley-Hospital_StandardCharges.zip",
+    "publication_date": "2026-03-27",
+    "retrieved_on": "2026-09-29",
+    "archive_sha256": "aad204b63a2cc6ffac3a109da178a3b55b39daea078a88348692b9e361c042c5",
+    "csv_sha256": "970cb0d093ed94a8f4cf3e8608eca3f4171f9f9da00faa2d19e64592a4a8e0f6",
+    "archive_bytes": 1034717,
+    "csv_bytes": 15403527,
+    "encoding": "cp1252"
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "code": "73721",
+    "code_type": "CPT",
+    "name": "Knee MRI without contrast",
+    "description": "Knee MRI without contrast",
+    "category": "Imaging",
+    "aliases": [
+      "knee MRI",
+      "MRI of my knee"
+    ]
+  },
+  {
+    "code": "70551",
+    "code_type": "CPT",
+    "name": "Brain MRI without contrast",
+    "description": "Brain MRI without contrast",
+    "category": "Imaging",
+    "aliases": [
+      "brain MRI",
+      "MRI of my head"
+    ]
+  },
+  {
+    "code": "72148",
+    "code_type": "CPT",
+    "name": "Lower back MRI without contrast",
+    "description": "Lower back MRI without contrast",
+    "category": "Imaging",
+    "aliases": [
+      "back MRI",
+      "lumbar scan"
+    ]
+  },
+  {
+    "code": "74177",
+    "code_type": "CPT",
+    "name": "Abdomen and pelvis CT with contrast",
+    "description": "Abdomen and pelvis CT with contrast",
+    "category": "Imaging",
+    "aliases": [
+      "belly CT",
+      "abdominal CT with dye"
+    ]
+  },
+  {
+    "code": "70450",
+    "code_type": "CPT",
+    "name": "Head CT without contrast",
+    "description": "Head CT without contrast",
+    "category": "Imaging",
+    "aliases": [
+      "head CT",
+      "CT of brain"
+    ]
+  },
+  {
+    "code": "71046",
+    "code_type": "CPT",
+    "name": "Chest X-ray, two views",
+    "description": "Chest X-ray, two views",
+    "category": "Imaging",
+    "aliases": [
+      "chest xray",
+      "lung x-ray"
+    ]
+  },
+  {
+    "code": "76700",
+    "code_type": "CPT",
+    "name": "Complete abdominal ultrasound",
+    "description": "Complete abdominal ultrasound",
+    "category": "Imaging",
+    "aliases": [
+      "belly ultrasound",
+      "abdominal sonogram"
+    ]
+  },
+  {
+    "code": "77067",
+    "code_type": "CPT",
+    "name": "Screening mammogram, both breasts",
+    "description": "Screening mammogram, both breasts",
+    "category": "Screening",
+    "aliases": [
+      "mammogram",
+      "breast cancer screening"
+    ]
+  },
+  {
+    "code": "45378",
+    "code_type": "CPT",
+    "name": "Diagnostic colonoscopy",
+    "description": "Diagnostic colonoscopy",
+    "category": "Digestive care",
+    "aliases": [
+      "colonoscopy",
+      "colon scope"
+    ]
+  },
+  {
+    "code": "43235",
+    "code_type": "CPT",
+    "name": "Upper digestive tract endoscopy",
+    "description": "Upper digestive tract endoscopy",
+    "category": "Digestive care",
+    "aliases": [
+      "upper endoscopy",
+      "stomach scope"
+    ]
+  },
+  {
+    "code": "59409",
+    "code_type": "CPT",
+    "name": "Vaginal delivery only",
+    "description": "Vaginal delivery only",
+    "category": "Maternity",
+    "aliases": [
+      "baby delivery",
+      "vaginal birth"
+    ]
+  },
+  {
+    "code": "59514",
+    "code_type": "CPT",
+    "name": "Cesarean delivery only",
+    "description": "Cesarean delivery only",
+    "category": "Maternity",
+    "aliases": [
+      "c section",
+      "cesarean birth"
+    ]
+  },
+  {
+    "code": "80053",
+    "code_type": "CPT",
+    "name": "Comprehensive metabolic blood panel",
+    "description": "Comprehensive metabolic blood panel",
+    "category": "Lab tests",
+    "aliases": [
+      "metabolic panel",
+      "CMP blood test"
+    ]
+  },
+  {
+    "code": "85025",
+    "code_type": "CPT",
+    "name": "Blood count with differential",
+    "description": "Blood count with differential",
+    "category": "Lab tests",
+    "aliases": [
+      "blood count",
+      "CBC with differential"
+    ]
+  },
+  {
+    "code": "80061",
+    "code_type": "CPT",
+    "name": "Cholesterol and lipid panel",
+    "description": "Cholesterol and lipid panel",
+    "category": "Lab tests",
+    "aliases": [
+      "cholesterol test",
+      "lipid panel"
+    ]
+  },
+  {
+    "code": "83036",
+    "code_type": "CPT",
+    "name": "Hemoglobin A1c blood test",
+    "description": "Hemoglobin A1c blood test",
+    "category": "Lab tests",
+    "aliases": [
+      "A1c test",
+      "three month blood sugar"
+    ]
+  },
+  {
+    "code": "93306",
+    "code_type": "CPT",
+    "name": "Complete heart ultrasound",
+    "description": "Complete heart ultrasound",
+    "category": "Heart care",
+    "aliases": [
+      "echocardiogram",
+      "heart ultrasound"
+    ]
+  },
+  {
+    "code": "93000",
+    "code_type": "CPT",
+    "name": "Electrocardiogram with interpretation",
+    "description": "Electrocardiogram with interpretation",
+    "category": "Heart care",
+    "aliases": [
+      "EKG",
+      "ECG test"
+    ]
+  },
+  {
+    "code": "97110",
+    "code_type": "CPT",
+    "name": "Therapeutic exercises, 15 minutes",
+    "description": "Therapeutic exercises, 15 minutes",
+    "category": "Rehabilitation",
+    "aliases": [
+      "physical therapy exercises",
+      "PT exercise session"
+    ]
+  },
+  {
+    "code": "29881",
+    "code_type": "CPT",
+    "name": "Knee arthroscopy with meniscus procedure",
+    "description": "Knee arthroscopy with meniscus procedure",
+    "category": "Surgery",
+    "aliases": [
+      "meniscus surgery",
+      "knee arthroscopy"
+    ]
+  }
+]

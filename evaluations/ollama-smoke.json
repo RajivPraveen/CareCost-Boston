@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-09-29T05:52:04.760303+00:00",
+  "model": "mistral:7b-instruct",
+  "fixture": "Synthetic four-line bill in scripts/check_local_ai.py",
+  "expected": [
+    [
+      "73721",
+      "1",
+      "2400.00"
+    ],
+    [
+      "85025",
+      "1",
+      "55.10"
+    ],
+    [
+      "85025",
+      "1",
+      "55.10"
+    ],
+    [
+      "99999",
+      "1",
+      "120.00"
+    ]
+  ],
+  "actual": [
+    [
+      "73721",
+      "1",
+      "2400.00"
+    ],
+    [
+      "85025",
+      "1",
+      "55.10"
+    ],
+    [
+      "85025",
+      "1",
+      "55.10"
+    ],
+    [
+      "99999",
+      "1",
+      "120.00"
+    ]
+  ],
+  "exact_match": true,
+  "extracted_bill": {
+    "lines": [
+      {
+        "description": "Knee MRI",
+        "code": "73721",
+        "code_type": "CPT",
+        "quantity": "1",
+        "charge": "2400.00",
+        "service_date": "2026-09-01",
+        "modifiers": "",
+        "evidence": "CPT 73721 Knee MRI quantity 1 line total $2400.00"
+      },
+      {
+        "description": "Blood count",
+        "code": "85025",
+        "code_type": "CPT",
+        "quantity": "1",
+        "charge": "55.10",
+        "service_date": null,
+        "modifiers": "",
+        "evidence": "CPT 85025 Blood count quantity 1 line total $55.10"
+      },
+      {
+        "description": "Blood count",
+        "code": "85025",
+        "code_type": "CPT",
+        "quantity": "1",
+        "charge": "55.10",
+        "service_date": null,
+        "modifiers": "",
+        "evidence": "CPT 85025 Blood count quantity 1 line total $55.10"
+      },
+      {
+        "description": "Unmatched service",
+        "code": "99999",
+        "code_type": "CPT",
+        "quantity": "1",
+        "charge": "120.00",
+        "service_date": null,
+        "modifiers": "",
+        "evidence": "CPT 99999 Unmatched service quantity 1 line total $120.00"
+      }
+    ]
+  },
+  "note": "One synthetic smoke test reused during development, not an accuracy benchmark; OCR not included. Explicitly labeled codes may be recovered deterministically from source evidence."
+}

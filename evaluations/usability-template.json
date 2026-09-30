@@ -1,0 +1,11 @@
+{
+  "status": "template_not_completed",
+  "participant_id": null,
+  "consent_obtained": false,
+  "tasks": [],
+  "ease_1_to_5": null,
+  "understanding_1_to_5": null,
+  "usefulness_1_to_5": null,
+  "would_change_care_location": null,
+  "anonymous_feedback": null
+}
